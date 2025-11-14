@@ -18,7 +18,7 @@ body {
     width: 400px;
     height: 450px;
     border-radius: 4%;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 .display {
@@ -38,6 +38,7 @@ body {
 .expression {
     font-size: 1rem;
     color: #208A92;
+    font-weight: bold;
 }
 
 .result {
@@ -55,6 +56,10 @@ body {
     cursor: pointer;
     color: #FAF9F6;
     font-weight: 600;
+    button {
+    transition: transform 0.1s ease;
+}
+
 }
 
 .buttons button:hover {
